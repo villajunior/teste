@@ -1,0 +1,12 @@
+ano,1
+mes,2
+sigla_uf_emitente,3
+cod_municipio_emitente,4
+sigla_uf_destinatario,5
+cod_municipio_destinatario,6
+cnae_dest,7
+descricao_cnae_dest,8
+codigo_ncm,9
+cfop,10
+total_bruto_produtos_entradas,11
+total_icms_entradas,12

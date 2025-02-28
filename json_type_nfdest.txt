@@ -1,0 +1,43 @@
+PUT /nfdest
+{
+  "mappings":{
+    "properties":{
+      "ano":{
+        "format": "short"
+      },
+      "mes":{
+        "type":"short"
+      },
+      "sigla_uf_emitente":{
+        "type":"keyword"
+      },
+      "cod_municipio_emitente":{
+        "type":"integer"
+      },
+      "sigla_uf_destinatario":{
+        "type":"keyword"
+      },
+      "cod_municipio_destinatario":{
+        "type":"integer"
+      },
+      "cnae_dest":{
+        "type":"integer"
+      },
+      "descricao_cnae_dest":{
+        "type":"keyword"
+      },
+      "codigo_ncm":{
+        "type":"integer"
+      },
+      "cfop":{
+        "type":"integer"
+      },
+      "total_bruto_produtos_entradas":{
+        "type":"float"
+      },
+      "total_icms_entradas":{
+        "type":"float"
+      }	
+    }
+  }
+}
